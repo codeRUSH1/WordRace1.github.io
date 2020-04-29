@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body {
+  background-color: white;
+  font-family: 'Saira Stencil One';
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+#btn {
+    font-size: 25px;
+    border-radius: 15px;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-family: 'Saira Stencil One';
+    justify-content: center;
+    border-color: black;
+    cursor: pointer;
+}
+
+h1 {
+  font-family: 'Saira Stencil One';
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 4rem;
+  color: gold;
+  font-weight: bold;
+}
+
+.quote-display {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+  font-size: 40px;
+}
+
+.quote-input {
+  background-color: transparent;
+  border: 2px solid #2E76CF;
+  outline: none;
+  width: 50%;
+  height: 10vh;
+  margin: auto;
+  resize: none;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.quote-input:focus {
+  border-color: black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: bottom;
+}
+
+#start-btn {
+  height: 60px;
+  width: 255px;
+  background: #2E76CF;
+  background-color: #2E76CF;
+  outline: none;
+  border-color: #2E76CF;
+
+}
+
+#start-btn:hover {
+  background: #173b67;
+  background-color: #173b67;
+  color: #173b67;
+  outline: none;
+}
+
+#start-text-color {
+  color: #ffffff;
+  font-family: 'Saira Stencil One';
+  font-size: 25px;
+}
+
