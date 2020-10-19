@@ -45,9 +45,16 @@ h1 {
   flex-direction: column;
 }
 
+.counter {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+}
+
 .timer {
   text-align: center;
-  margin-top: 2.5rem;
   font-size: 4rem;
   color: gold;
   font-weight: bold;
@@ -58,6 +65,11 @@ h1 {
   margin-left: calc(1rem + 2px);
   margin-right: calc(1rem + 2px);
   font-size: 40px;
+}
+
+#quote-display {
+  cursor: default;
+  user-select: none;
 }
 
 .quote-input {
@@ -91,7 +103,8 @@ h1 {
 .start-button {
   display: flex;
   justify-content: center;
-  flex-direction: bottom;
+  flex-direction: column;
+  align-items: center;
 }
 
 #start-btn {
@@ -101,7 +114,7 @@ h1 {
   background-color: #2E76CF;
   outline: none;
   border-color: #2E76CF;
-
+  cursor: pointer;
 }
 
 #start-btn:hover {
@@ -117,3 +130,77 @@ h1 {
   font-size: 25px;
 }
 
+#save-score-btn {
+    height: 60px;
+    width: 255px;
+    background: #2E76CF;
+    background-color: #2E76CF;
+    outline: none;
+    border-color: #2E76CF;
+}
+
+#save-score-btn:hover {
+  background: #173b67;
+  background-color: #173b67;
+  color: #173b67;
+  outline: none;
+}
+
+.level-buttons {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  height: 60px;
+  width: 255px;
+}
+
+#beginner-btn {
+background-color: brown;
+outline: none;
+border: none;
+cursor: pointer;
+}
+
+#intermediate-btn {
+  background-color: silver;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#advanced-btn {
+  background-color: gold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#master-btn {
+  background-color: paleturquoise;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#beginner-btn:hover {
+  background-color: rgb(102, 26, 26);
+  }
+  
+  #intermediate-btn:hover {
+    background-color: rgb(163, 163, 163);
+  }
+  
+  #advanced-btn:hover {
+    background-color: rgb(221, 188, 0);
+  }
+  
+  #master-btn:hover {
+    background-color: rgb(157, 214, 214);
+  }
+
+  button:focus { outline:0 !important; }
+
+.counter-div {
+ text-align: center;
+}
