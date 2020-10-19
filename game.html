@@ -11,17 +11,34 @@
         <h1>Word Race</h1>
         <button id="btn" type="submit">Change Background</button>
         </div>
-
-        <div class="timer" id="timer"></div>
         
-        <div id="container1" class="container">
-        <div class="quote-display" id="quoteDisplay"> </div>
-        <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+        <div class="counter-div">
+            <p>Counter: </p>
+            <div class="counter" id="counter"></div>
+        </div>
+        
+        <div style="text-align: center;">  
+            <p>Timer: </p>
+            <hr />
+            <div class="timer" id="timer"></div>
+        </div>
+        
+        <div id="container1" class="container">         <!-- onmousedown='return false;' onselectstart='return false;' -->      
+        <div class="quote-display" id="quoteDisplay"  hidden="true" > </div>
+        <textarea id="quoteInput" class="quote-input" autofocus disabled="true"  hidden="true" placeholder=""></textarea>
         </div>
 
         <div class="start-button">
         <button id="start-btn" type="submit"><span id="start-text-color">START GAME</span></button>
+        <div class="level-buttons">
+            <button id="beginner-btn" type="submit"><span id="start-text-color">BEGINNER</span></button>
+            <button id="intermediate-btn" type="submit"><span id="start-text-color">INTERMEDIATE</span></button>
+            <button id="advanced-btn" type="submit"><span id="start-text-color">ADVANCED</span></button>
+            <button id="master-btn" type="submit"><span id="start-text-color">MASTER</span></button>
+            </div>
         </div>
+
+     
 
 <script src="./js/game.js"></script>
 <script src="./js/background.js"></script>
