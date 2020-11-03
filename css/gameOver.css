@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#gameOverBtn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 255px;
+    background: #2E76CF;
+    background-color: #2E76CF;
+    outline: none;
+    border-color: #2E76CF;
+    cursor: pointer;
+  }
+  
+  #gameOverBtn:hover {
+    background: #173b67;
+    background-color: #173b67;
+    color: #173b67;
+    outline: none;
+  }
+  
+  #start-text-color {
+    margin-top: 7.5px;
+    color: #ffffff;
+    font-family: 'Saira Stencil One';
+    font-size: 25px;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Saira Stencil One';
+    font-size: 100px;
+}
